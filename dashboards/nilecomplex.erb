@@ -1,0 +1,54 @@
+<script type='text/javascript'>
+    $(function() {
+        // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+
+        Dashing.numColumns = 8
+        Dashing.widget_base_dimensions = [300, 460]
+
+
+    });
+</script>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+      <div data-id="nile_bravo_list" data-view="Bravolist"></div>
+    </li>
+
+    <li data-row="1" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="nile_camhost" data-view="Camhost"></div>
+    </li>
+    <!--total bet-->
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="totalNormalBets" data-view="Number"></div>
+    </li>
+    <!--version and active terminals-->
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="versionTerminals" data-view="TextNumber"></div>
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="nile_spectrum" data-view="Trackside"></div>
+    </li>
+    <!--sport bets total-->
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="totalSportBets" data-view="Number"></div>
+    </li>
+    <!--xb and master slave-->
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="others" data-view="Bravo"></div>
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="nile_trackside_inf" data-view="Trackside"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="weather" data-view="Weather"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="" data-view="Clock"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="news" data-view="BbcNews"></div>
+    </li>
+  </ul>
+</div>

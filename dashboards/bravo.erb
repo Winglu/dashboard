@@ -1,0 +1,281 @@
+<script type='text/javascript'>
+
+
+    $(function() {
+        // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+
+        Dashing.numColumns = 5
+    });
+    //$("body").css('overflow', 'hidden');
+
+/*
+    counter = 0
+	var intervalID = setInterval(function(){
+		if(counter>3){
+			counter=0;
+		}
+		if(counter == 0){
+			$(".caviar").hide();
+			$(".white").hide();
+			$(".nose").hide();
+			$(".black").fadeIn();
+			
+		}else if(counter == 1){
+			$(".black").hide();
+			$(".white").hide();
+			$(".nose").hide();
+			$(".caviar").fadeIn();
+			
+		}else if(counter == 2){
+			$(".caviar").hide();
+			$(".black").hide();
+			$(".nose").hide();
+			$(".white").fadeIn();
+			
+		}else if(counter == 3){
+			$(".caviar").hide();
+			$(".white").hide();
+			$(".black").hide();
+			$(".nose").fadeIn();
+			
+		}
+		counter ++;
+		}, 5000);
+	*/
+    /*
+	function scroll(speed) {
+	    $('html, body').animate({ scrollTop: $(document).height() - $(window).height() }, speed, function() {
+	        $(this).animate({ scrollTop: 0 }, speed);
+	    });
+	}
+	
+	speed = 20000;
+
+	scroll(speed);
+	setInterval(function(){scroll(speed)}, speed*2 );
+    */
+</script>
+<% content_for(:title) { "Testing Environment Status" } %>
+<div class="gridster"  >
+		<ul>
+			<!--Congo-->
+			<li data-row="1" data-col="1" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="congo"  data-view="Bravotext" ></div>
+		    </li>
+	        <li data-row="1" data-col="2" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="bravo_app_status_black_tsth" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="1" data-col="3" data-sizex="1" data-sizey="1" class="caviar">
+		      <div data-id="bravo_app_status_caviar_tsth" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="1" data-col="4" data-sizex="1" data-sizey="1" class="white">
+		      <div data-id="bravo_app_status_white_tsth" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+
+			<li data-row="1" data-col="5" data-sizex="1" data-sizey="1" class="nose">
+		      <div data-id="bravo_app_status_nose_tsth" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+	        
+	        <!--Ganges-->
+	        <li data-row="2" data-col="1" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="ganges"  data-view="Bravotext" ></div>
+		    </li>
+	        <li data-row="2" data-col="2" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="bravo_app_status_black_tstg" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="2" data-col="3" data-sizex="1" data-sizey="1" class="caviar">
+		      <div data-id="bravo_app_status_caviar_tstg" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="2" data-col="4" data-sizex="1" data-sizey="1" class="white">
+		      <div data-id="bravo_app_status_white_tstg" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="2" data-col="5" data-sizex="1" data-sizey="1" class="nose">
+		      <div data-id="bravo_app_status_nose_tstg" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+	        
+	        <!--Mekong-->
+	        <li data-row="3" data-col="1" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="mekong"  data-view="Bravotext" ></div>
+		    </li>
+	        <li data-row="3" data-col="2" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="bravo_app_status_black_tstf" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="3" data-col="3" data-sizex="1" data-sizey="1" class="caviar">
+		      <div data-id="bravo_app_status_caviar_tstf" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="3" data-col="4" data-sizex="1" data-sizey="1" class="white">
+		      <div data-id="bravo_app_status_white_tstf" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="3" data-col="5" data-sizex="1" data-sizey="1" class="nose">
+		      <div data-id="bravo_app_status_nose_tstf" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+	        
+	        <!--Thames-->
+	        <li data-row="4" data-col="1" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="thames"  data-view="Bravotext" ></div>
+		    </li>
+	        <li data-row="4" data-col="2" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="bravo_app_status_black_tste" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="4" data-col="3" data-sizex="1" data-sizey="1" class="caviar">
+		      <div data-id="bravo_app_status_caviar_tste" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="4" data-col="4" data-sizex="1" data-sizey="1" class="white">
+		      <div data-id="bravo_app_status_white_tste" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="4" data-col="5" data-sizex="1" data-sizey="1" class="nose">
+		      <div data-id="bravo_app_status_nose_tste" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+	        
+	        <!--Danube-->
+	        <li data-row="5" data-col="1" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="danube"  data-view="Bravotext" ></div>
+		    </li>
+	        <li data-row="5" data-col="2" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="bravo_app_status_black_tstd" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="5" data-col="3" data-sizex="1" data-sizey="1" class="caviar">
+		      <div data-id="bravo_app_status_caviar_tstd" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="5" data-col="4" data-sizex="1" data-sizey="1" class="white">
+		      <div data-id="bravo_app_status_white_tstd" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="5" data-col="5" data-sizex="1" data-sizey="1" class="nose">
+		      <div data-id="bravo_app_status_nose_tstd" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+		    
+		    <!--Zambeze-->
+		    <li data-row="6" data-col="1" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="zambeze"  data-view="Bravotext" ></div>
+		    </li>
+		    <li data-row="6" data-col="2" data-sizex="1"  data-sizey="1" class="black">
+		      <div data-id="bravo_app_status_black_sitn" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+		    </li>
+			<li data-row="6" data-col="3" data-sizex="1"  data-sizey="1" class="caviar">
+		      <div data-id="bravo_app_status_caviar_sitn" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+		    </li>
+			<li data-row="6" data-col="4" data-sizex="1"  data-sizey="1" class="white">
+		      <div data-id="bravo_app_status_white_sitv" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+		    </li>
+			<li data-row="6" data-col="5" data-sizex="1"  data-sizey="1" class="nose">
+		      <div data-id="bravo_app_status_nose_sitv" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+		    </li>
+		    
+		    <!--Murray-->
+		    <li data-row="7" data-col="1" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="murray"  data-view="Bravotext" ></div>
+		    </li>
+		    <li data-row="7" data-col="2" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="bravo_app_status_black_tstn" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="7" data-col="3" data-sizex="1" data-sizey="1" class="caviar">
+		      <div data-id="bravo_app_status_caviar_tstn" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="7" data-col="4" data-sizex="1" data-sizey="1" class="white">
+		      <div data-id="bravo_app_status_white_tstv" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+			<li data-row="7" data-col="5" data-sizex="1" data-sizey="1" class="nose">
+		      <div data-id="bravo_app_status_nose_tstv" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+		    
+		    <!--Yarra-->
+		    <li data-row="8" data-col="1" data-sizex="1" data-sizey="1">
+		      <div data-id="yarra"  data-view="Bravotext" ></div>
+		    </li>
+
+
+
+		    <li data-row="8" data-col="2" data-sizex="1" data-sizey="1" class="black">
+		      <div data-id="bravo_app_status_black_prdn" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+		    </li>
+            <li data-row="8" data-col="3" data-sizex="1" data-sizey="1" class="caviar">
+              <div data-id="bravo_app_status_caviar_prdn" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+            </li>
+            <li data-row="8" data-col="4" data-sizex="1" data-sizey="1" class="white">
+              <div data-id="bravo_app_status_white_prdv" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+            </li>
+
+			<li data-row="8" data-col="5" data-sizex="1" data-sizey="1" class="nose">
+		      <div data-id="bravo_app_status_nose_prdv" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+		    </li>
+		    
+		    <!--DEV-->
+		    <li data-row="9" data-col="1" data-sizex="1" data-sizey="1">
+		      <div data-id="nile"  data-view="Bravotext" ></div>
+		    </li>
+            <li data-row="9" data-col="2" data-sizex="1" data-sizey="1" class="streak">
+              <div data-id="bravo_app_status_streak_prdn" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+            </li>
+            <li data-row="9" data-col="3" data-sizex="1" data-sizey="1" class="daacha">
+              <div data-id="bravo_app_status_daacha_prdn" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+            </li>
+            <li data-row="9" data-col="4" data-sizex="1" data-sizey="1" class="brew">
+              <div data-id="bravo_app_status_brew_prdv" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+            </li>
+		    <li data-row="9" data-col="5" data-sizex="1" data-sizey="1" class="arwon">
+		      <div data-id="bravo_app_status_arwon_prdv" data-addclass-danger="isTooHigh" data-view="Bravotext" ></div>
+		    </li>
+
+
+
+		    
+		    <!--tste-->
+		    <li data-row="10" data-col="1" data-sizex="1" data-sizey="1">
+		      <div data-id="tste"  data-view="Bravotext" ></div>
+		    </li>
+            <li data-row="10" data-col="2" data-sizex="1" data-sizey="1" class="black">
+              <div data-id="bravo_app_status_elope_tste" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+            </li>
+
+			<li data-row="10" data-col="3" data-sizex="1" data-sizey="1" class="black">
+		    	<div data-id="bravo_app_status_think_tste" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+			</li>
+            <li data-row="10" data-col="4" data-sizex="1" data-sizey="1" class="black">
+              <div data-id="bravo_app_status_soyou_tste" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+            </li>
+			<li data-row="10" data-col="5" data-sizex="1" data-sizey="1" class="black">
+		    	<div data-id="bravo_app_status_lets_tste" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+			</li>
+
+		    
+		    
+		    <!--tstf-->
+		    <li data-row="11" data-col="1" data-sizex="1" data-sizey="1">
+		      <div data-id="tstf"  data-view="Bravotext" ></div>
+		    </li>
+            <li data-row="11" data-col="2" data-sizex="1" data-sizey="1" class="black">
+              <div data-id="bravo_app_status_elope_tstf" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+            </li>
+            <li data-row="11" data-col="3" data-sizex="1" data-sizey="1" class="black">
+              <div data-id="bravo_app_status_think_tstf" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+            </li>
+		    <li data-row="11" data-col="4" data-sizex="1" data-sizey="1" class="black">
+		    	<div data-id="bravo_app_status_soyou_tstf" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+			</li>
+
+			<li data-row="11" data-col="5" data-sizex="1" data-sizey="1" class="black">
+		    	<div data-id="bravo_app_status_lets_tstf" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+			</li>
+
+		    
+		    
+		    <!--tstg-->
+		    <li data-row="12" data-col="1" data-sizex="1" data-sizey="1">
+		      <div data-id="tstg"  data-view="Bravotext" ></div>
+		    </li>
+            <li data-row="12" data-col="2" data-sizex="1" data-sizey="1" class="black">
+              <div data-id="bravo_app_status_elope_tstg" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+            </li>
+
+			<li data-row="12" data-col="3" data-sizex="1" data-sizey="1" class="black">
+		    	<div data-id="bravo_app_status_think_tstg" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+			</li>
+            <li data-row="12" data-col="4" data-sizex="1" data-sizey="1" class="black">
+              <div data-id="bravo_app_status_soyou_tstg" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+            </li>
+			<li data-row="12" data-col="5" data-sizex="1" data-sizey="1" class="black">
+		    	<div data-id="bravo_app_status_lets_tstg" data-view="Bravotext" data-addclass-danger="isTooHigh"  ></div>
+			</li>
+
+		  </ul>
+</div>

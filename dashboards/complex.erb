@@ -1,0 +1,51 @@
+<script type='text/javascript'>
+    $(function() {
+        // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+
+        Dashing.numColumns = 8
+    });
+</script>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+      <div data-id="bravo_list" data-view="Bravolist"></div>
+    </li>
+
+    <li data-row="1" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="camhost" data-view="Camhost"></div>
+    </li>
+    <!--total bet-->
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="totalNormalBets" data-view="Number"></div>
+    </li>
+    <!--version and active terminals-->
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="versionTerminals" data-view="TextNumber"></div>
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+    <div data-id="spectrum" data-view="Trackside"></div>
+  </li>
+    <!--sport bets total-->
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="totalSportBets" data-view="Number"></div>
+    </li>
+    <!--xb and master slave-->
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="others" data-view="Bravo"></div>
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="trackside_inf" data-view="Trackside"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="my_widget" data-view="Text"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="" data-view="Clock"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="news" data-view="BbcNews"></div>
+    </li>
+  </ul>
+</div>

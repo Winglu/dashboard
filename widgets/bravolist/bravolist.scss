@@ -1,0 +1,52 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+$background-color:  #eb9c3c;
+// ----------------------------------------------------------------------------
+// Widget-comment styles
+// ----------------------------------------------------------------------------
+.widget-bravolist {
+
+  background-color: $background-color;
+
+  .env{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  .server{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  .app{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  .status{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+
+  }
+  .title {
+    color: $title-color;
+    margin-bottom: 15px;
+  }
+
+  .name {
+    padding-left: 5px;
+  }
+
+  .comment-container {
+    display: none;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+}

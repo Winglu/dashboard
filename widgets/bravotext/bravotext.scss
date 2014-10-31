@@ -1,0 +1,60 @@
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+$background-color:  #eb9c3c;
+.widget-bravotext {
+  background-color: #660099;
+
+  .title {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+    visibility: hidden;
+  }
+  .server{
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+
+  }
+  .text{
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .updated-at {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+
+  &.large h3 {
+    font-size: 65px;
+  }
+}
+.envTitle{
+
+  background-color: #cc00ff;
+}
+.deadgrade{
+  background-color: black;
+
+}
+.alivegrade{
+
+  background-color: black;
+}
+.dead {
+  background-color: red;
+}
+.alive {
+  background-color: green;
+}
+.fade{
+  background-color: #686868 ;
+
+}
+.normal{
+
+}

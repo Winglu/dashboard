@@ -1,0 +1,523 @@
+---
+convergence: |+
+  data: {"points":[{"x":4343,"y":40},{"x":4344,"y":32},{"x":4345,"y":27},{"x":4346,"y":8},{"x":4347,"y":7},{"x":4348,"y":29},{"x":4349,"y":46},{"x":4350,"y":35},{"x":4351,"y":38},{"x":4352,"y":10}],"id":"convergence","updatedAt":1414562687}
+
+buzzwords: |+
+  data: {"items":[{"label":"Enterprise","value":15},{"label":"Pivoting","value":8},{"label":"Paradigm shift","value":22},{"label":"Turn-key","value":9},{"label":"Exit strategy","value":12},{"label":"Streamlininess","value":11},{"label":"Synergy","value":3},{"label":"Web 2.0","value":6},{"label":"Leverage","value":26}],"id":"buzzwords","updatedAt":1414562687}
+
+valuation: |+
+  data: {"current":16,"last":83,"id":"valuation","updatedAt":1414562687}
+
+karma: |+
+  data: {"current":146576,"last":63897,"id":"karma","updatedAt":1414562687}
+
+synergy: |+
+  data: {"value":58,"id":"synergy","updatedAt":1414562687}
+
+bravo_app_status_1: |+
+  data: {"items":[{"label":"Allowed","value":"20"},{"label":"Denied","value":"5"}],"id":"bravo_app_status_1","updatedAt":1409286529}
+
+bravo_app_status_#{status.getServer}_#{status.getApp}: |+
+  data: {"text":"alive","id":"bravo_app_status_#{status.getServer}_#{status.getApp}","updatedAt":1409284142}
+
+bravo_app_status_black_sitn: |+
+  data: {"title":"","moreinfo":"fade","server":"sitn\r\n black","text":"","id":"bravo_app_status_black_sitn","updatedAt":1414562688}
+
+bravo_app_status_nose_tsth: |+
+  data: {"title":"","moreinfo":"fade","server":"tsth\r\n nose","text":"","id":"bravo_app_status_nose_tsth","updatedAt":1414562688}
+
+bravo_app_status_black_tstg: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n black","text":"","id":"bravo_app_status_black_tstg","updatedAt":1414562688}
+
+bravo_app_status_nose_tstd: |+
+  data: {"title":"","moreinfo":"fade","server":"tstd\r\n nose","text":"","id":"bravo_app_status_nose_tstd","updatedAt":1414562688}
+
+bravo_app_status_white_tsth: |+
+  data: {"title":"","moreinfo":"fade","server":"tsth\r\n white","text":"","id":"bravo_app_status_white_tsth","updatedAt":1414562688}
+
+bravo_app_status_black_tste: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n black","text":"","id":"bravo_app_status_black_tste","updatedAt":1414562688}
+
+bravo_app_status_black_tstf: |+
+  data: {"title":"nsw master","moreinfo":"","server":"tstf black","text":"alive","id":"bravo_app_status_black_tstf","updatedAt":1414562680}
+
+bravo_app_status_black_tstd: |+
+  data: {"title":"","moreinfo":"fade","server":"tstd\r\n black","text":"","id":"bravo_app_status_black_tstd","updatedAt":1414562688}
+
+bravo_app_status_nose_tstv: |+
+  data: {"title":"vic slave","moreinfo":"","server":"tstv nose","text":"alive","id":"bravo_app_status_nose_tstv","updatedAt":1414562680}
+
+bravo_app_status_caviar_tstd: |+
+  data: {"title":"","moreinfo":"fade","server":"tstd\r\n caviar","text":"","id":"bravo_app_status_caviar_tstd","updatedAt":1414562688}
+
+bravo_app_status_black_tsth: |+
+  data: {"title":"","moreinfo":"fade","server":"tsth\r\n black","text":"","id":"bravo_app_status_black_tsth","updatedAt":1414562688}
+
+bravo_app_status_white_tstd: |+
+  data: {"title":"","moreinfo":"fade","server":"tstd\r\n white","text":"","id":"bravo_app_status_white_tstd","updatedAt":1414562688}
+
+bravo_app_status_caviar_tsth: |+
+  data: {"title":"","moreinfo":"fade","server":"tsth\r\n caviar","text":"","id":"bravo_app_status_caviar_tsth","updatedAt":1414562688}
+
+bravo_app_status_caviar_tstn: |+
+  data: {"title":"nsw slave","moreinfo":"","server":"tstn caviar","text":"alive","id":"bravo_app_status_caviar_tstn","updatedAt":1414562680}
+
+bravo_app_status_nose_sitv: |+
+  data: {"title":"vic slave","moreinfo":"","server":"sitv nose","text":"dead","id":"bravo_app_status_nose_sitv","updatedAt":1414562680}
+
+bravo_app_status_black_tstn: |+
+  data: {"title":"nsw master","moreinfo":"","server":"tstn black","text":"alive","id":"bravo_app_status_black_tstn","updatedAt":1414562680}
+
+bravo_app_status_nose_tstn: |+
+  data: {"title":"tstn","text":"dead","id":"bravo_app_status_nose_tstn","updatedAt":1409287601}
+
+bravo_app_status_caviar_tstv: |+
+  data: {"title":"tstv","text":"dead","id":"bravo_app_status_caviar_tstv","updatedAt":1409287563}
+
+bravo_app_status_white_prdv: |+
+  data: {"title":"vic master","moreinfo":"","server":"prdv white","text":"alive","id":"bravo_app_status_white_prdv","updatedAt":1414562680}
+
+bravo_app_status_black_prdn: |+
+  data: {"title":"nsw master","moreinfo":"","server":"prdn black","text":"alive","id":"bravo_app_status_black_prdn","updatedAt":1414562680}
+
+bravo_app_status_white_tstf: |+
+  data: {"title":"vic master","moreinfo":"","server":"tstf white","text":"alive","id":"bravo_app_status_white_tstf","updatedAt":1414562680}
+
+bravo_app_status_white_tstg: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n white","text":"","id":"bravo_app_status_white_tstg","updatedAt":1414562688}
+
+bravo_app_status_white_tste: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n white","text":"","id":"bravo_app_status_white_tste","updatedAt":1414562688}
+
+bravo_app_status_black_sitv: |+
+  data: {"title":"sitv","text":"alive","id":"bravo_app_status_black_sitv","updatedAt":1409287704}
+
+bravo_app_status_nose_tste: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n nose","text":"","id":"bravo_app_status_nose_tste","updatedAt":1414562688}
+
+bravo_app_status_caviar_tste: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n caviar","text":"","id":"bravo_app_status_caviar_tste","updatedAt":1414562688}
+
+bravo_app_status_caviar_tstf: |+
+  data: {"title":"","moreinfo":"fade","server":"tstf\r\n caviar","text":"","id":"bravo_app_status_caviar_tstf","updatedAt":1414562688}
+
+bravo_app_status_black_tstv: |+
+  data: {"title":"tstv","text":"dead","id":"bravo_app_status_black_tstv","updatedAt":1409287985}
+
+bravo_app_status_caviar_sitn: |+
+  data: {"title":"","moreinfo":"fade","server":"sitn\r\n caviar","text":"","id":"bravo_app_status_caviar_sitn","updatedAt":1414562688}
+
+bravo_app_status_nose_tstg: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n nose","text":"","id":"bravo_app_status_nose_tstg","updatedAt":1414562688}
+
+bravo_app_status_white_tstv: |+
+  data: {"title":"vic master","moreinfo":"","server":"tstv white","text":"alive","id":"bravo_app_status_white_tstv","updatedAt":1414562680}
+
+bravo_app_status_white_sitn: |+
+  data: {"title":"sitn","text":"dead","id":"bravo_app_status_white_sitn","updatedAt":1409287594}
+
+bravo_app_status_caviar_tstg: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n caviar","text":"","id":"bravo_app_status_caviar_tstg","updatedAt":1414562688}
+
+bravo_app_status_nose_prdv: |+
+  data: {"title":"vic slave","moreinfo":"","server":"prdv nose","text":"alive","id":"bravo_app_status_nose_prdv","updatedAt":1414562680}
+
+bravo_app_status_nose_sitn: |+
+  data: {"title":"sitn","text":"dead","id":"bravo_app_status_nose_sitn","updatedAt":1409287764}
+
+bravo_app_status_caviar_sitv: |+
+  data: {"title":"sitv","text":"alive","id":"bravo_app_status_caviar_sitv","updatedAt":1409287329}
+
+bravo_app_status_white_tstn: |+
+  data: {"title":"tstn","text":"alive","id":"bravo_app_status_white_tstn","updatedAt":1409287726}
+
+bravo_app_status_nose_tstf: |+
+  data: {"title":"","moreinfo":"fade","server":"tstf\r\n nose","text":"","id":"bravo_app_status_nose_tstf","updatedAt":1414562688}
+
+bravo_app_status_white_sitv: |+
+  data: {"title":"vic master","moreinfo":"","server":"sitv white","text":"dead","id":"bravo_app_status_white_sitv","updatedAt":1414562680}
+
+bravo_app_status_caviar_prdn: |+
+  data: {"title":"nsw slave","moreinfo":"","server":"prdn caviar","text":"alive","id":"bravo_app_status_caviar_prdn","updatedAt":1414562680}
+
+widget_id: |+
+  data: {"id":"widget_id","updatedAt":1414562643}
+
+bravo_app_status_arwon_prdv: |+
+  data: {"title":"vic slave","moreinfo":"","server":"prdv arwon","text":"alive","id":"bravo_app_status_arwon_prdv","updatedAt":1414562676}
+
+bravo_app_status_brew_prdv: |+
+  data: {"title":"vic master","moreinfo":"","server":"prdv brew","text":"alive","id":"bravo_app_status_brew_prdv","updatedAt":1414562676}
+
+bravo_app_status_streak_prdn: |+
+  data: {"title":"nsw master","moreinfo":"","server":"prdn streak","text":"alive","id":"bravo_app_status_streak_prdn","updatedAt":1414562676}
+
+bravo_app_status_daacha_prdn: |+
+  data: {"title":"nsw slave","moreinfo":"","server":"prdn daacha","text":"alive","id":"bravo_app_status_daacha_prdn","updatedAt":1414562676}
+
+bravo_app_status_elop_tstn: |+
+  data: {"title":"tstn","moreinfo":"","server":"elop","text":"dead","id":"bravo_app_status_elop_tstn","updatedAt":1410932247}
+
+bravo_app_status_soyou_prdn: |+
+  data: {"title":"prdn","moreinfo":"","server":"soyou","text":"dead","id":"bravo_app_status_soyou_prdn","updatedAt":1410934230}
+
+bravo_app_status_elop_tstv: |+
+  data: {"title":"tstv","moreinfo":"","server":"elop","text":"dead","id":"bravo_app_status_elop_tstv","updatedAt":1410932247}
+
+bravo_app_status_soyou_prdv: |+
+  data: {"title":"prdv","moreinfo":"","server":"soyou","text":"dead","id":"bravo_app_status_soyou_prdv","updatedAt":1410934230}
+
+bravo_app_status_soyou_sitn: |+
+  data: {"title":"sitn","moreinfo":"","server":"soyou","text":"dead","id":"bravo_app_status_soyou_sitn","updatedAt":1410934230}
+
+bravo_app_status_soyou_sitv: |+
+  data: {"title":"sitv","moreinfo":"","server":"soyou","text":"dead","id":"bravo_app_status_soyou_sitv","updatedAt":1410934230}
+
+bravo_app_status_soyou_tstd: |+
+  data: {"title":"tstd","moreinfo":"","server":"soyou","text":"alive","id":"bravo_app_status_soyou_tstd","updatedAt":1410934230}
+
+bravo_app_status_soyou_tste: |+
+  data: {"title":"vic master","moreinfo":"","server":"tste soyou","text":"alive","id":"bravo_app_status_soyou_tste","updatedAt":1414562678}
+
+bravo_app_status_soyou_tstf: |+
+  data: {"title":"vic master","moreinfo":"","server":"tstf soyou","text":"alive","id":"bravo_app_status_soyou_tstf","updatedAt":1414562678}
+
+bravo_app_status_soyou_tstg: |+
+  data: {"title":"vic master","moreinfo":"","server":"tstg soyou","text":"alive","id":"bravo_app_status_soyou_tstg","updatedAt":1414562678}
+
+bravo_app_status_soyou_tsth: |+
+  data: {"title":"tsth","moreinfo":"","server":"soyou","text":"alive","id":"bravo_app_status_soyou_tsth","updatedAt":1410934230}
+
+bravo_app_status_soyou_tstn: |+
+  data: {"title":"tstn","moreinfo":"","server":"soyou","text":"dead","id":"bravo_app_status_soyou_tstn","updatedAt":1410934230}
+
+bravo_app_status_soyou_tstv: |+
+  data: {"title":"tstv","moreinfo":"","server":"soyou","text":"dead","id":"bravo_app_status_soyou_tstv","updatedAt":1410934230}
+
+bravo_app_status_elop_tstf: |+
+  data: {"title":"tstf","moreinfo":"","server":"elop","text":"alive","id":"bravo_app_status_elop_tstf","updatedAt":1410932247}
+
+bravo_app_status_think_dev: |+
+  data: {"title":"dev","moreinfo":"","server":"think","text":"dead","id":"bravo_app_status_think_dev","updatedAt":1410934230}
+
+bravo_app_status_think_prdn: |+
+  data: {"title":"prdn","moreinfo":"","server":"think","text":"dead","id":"bravo_app_status_think_prdn","updatedAt":1410934230}
+
+bravo_app_status_think_prdv: |+
+  data: {"title":"prdv","moreinfo":"","server":"think","text":"dead","id":"bravo_app_status_think_prdv","updatedAt":1410934230}
+
+bravo_app_status_think_sitn: |+
+  data: {"title":"sitn","moreinfo":"","server":"think","text":"dead","id":"bravo_app_status_think_sitn","updatedAt":1410934230}
+
+bravo_app_status_think_sitv: |+
+  data: {"title":"sitv","moreinfo":"","server":"think","text":"alive","id":"bravo_app_status_think_sitv","updatedAt":1410934230}
+
+bravo_app_status_elop_tstg: |+
+  data: {"title":"tstg","moreinfo":"","server":"elop","text":"dead","id":"bravo_app_status_elop_tstg","updatedAt":1410932247}
+
+bravo_app_status_elop_tsth: |+
+  data: {"title":"tsth","moreinfo":"","server":"elop","text":"dead","id":"bravo_app_status_elop_tsth","updatedAt":1410932247}
+
+bravo_app_status_elop_tste: |+
+  data: {"title":"tste","moreinfo":"","server":"elop","text":"alive","id":"bravo_app_status_elop_tste","updatedAt":1410932247}
+
+bravo_app_status_think_tstd: |+
+  data: {"title":"tstd","moreinfo":"","server":"think","text":"dead","id":"bravo_app_status_think_tstd","updatedAt":1410933659}
+
+bravo_app_status_think_tste: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n think","text":"","id":"bravo_app_status_think_tste","updatedAt":1414562688}
+
+bravo_app_status_think_tstf: |+
+  data: {"title":"","moreinfo":"fade","server":"tstf\r\n think","text":"","id":"bravo_app_status_think_tstf","updatedAt":1414562688}
+
+bravo_app_status_think_tstg: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n think","text":"","id":"bravo_app_status_think_tstg","updatedAt":1414562688}
+
+bravo_app_status_think_tsth: |+
+  data: {"title":"tsth","moreinfo":"","server":"think","text":"dead","id":"bravo_app_status_think_tsth","updatedAt":1410933659}
+
+bravo_app_status_think_tstn: |+
+  data: {"title":"tstn","moreinfo":"","server":"think","text":"dead","id":"bravo_app_status_think_tstn","updatedAt":1410933659}
+
+bravo_app_status_think_tstv: |+
+  data: {"title":"tstv","moreinfo":"","server":"think","text":"dead","id":"bravo_app_status_think_tstv","updatedAt":1410933659}
+
+bravo_app_status_lets_dev: |+
+  data: {"title":"dev","moreinfo":"","server":"lets","text":"dead","id":"bravo_app_status_lets_dev","updatedAt":1410933659}
+
+bravo_app_status_lets_prdn: |+
+  data: {"title":"prdn","moreinfo":"","server":"lets","text":"alive","id":"bravo_app_status_lets_prdn","updatedAt":1410934155}
+
+bravo_app_status_lets_prdv: |+
+  data: {"title":"prdv","moreinfo":"","server":"lets","text":"dead","id":"bravo_app_status_lets_prdv","updatedAt":1410934155}
+
+bravo_app_status_lets_sitn: |+
+  data: {"title":"sitn","moreinfo":"","server":"lets","text":"alive","id":"bravo_app_status_lets_sitn","updatedAt":1410934155}
+
+bravo_app_status_soyou_dev: |+
+  data: {"title":"dev","moreinfo":"","server":"soyou","text":"alive","id":"bravo_app_status_soyou_dev","updatedAt":1410934230}
+
+bravo_app_status_lets_sitv: |+
+  data: {"title":"sitv","moreinfo":"","server":"lets","text":"dead","id":"bravo_app_status_lets_sitv","updatedAt":1410934155}
+
+bravo_app_status_lets_tstd: |+
+  data: {"title":"tstd","moreinfo":"","server":"lets","text":"dead","id":"bravo_app_status_lets_tstd","updatedAt":1410934155}
+
+bravo_app_status_lets_tste: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n lets","text":"","id":"bravo_app_status_lets_tste","updatedAt":1414562688}
+
+bravo_app_status_lets_tstf: |+
+  data: {"title":"","moreinfo":"fade","server":"tstf\r\n lets","text":"","id":"bravo_app_status_lets_tstf","updatedAt":1414562688}
+
+bravo_app_status_lets_tstg: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n lets","text":"","id":"bravo_app_status_lets_tstg","updatedAt":1414562688}
+
+bravo_app_status_lets_tsth: |+
+  data: {"title":"tsth","moreinfo":"","server":"lets","text":"dead","id":"bravo_app_status_lets_tsth","updatedAt":1410934155}
+
+bravo_app_status_lets_tstn: |+
+  data: {"title":"tstn","moreinfo":"","server":"lets","text":"dead","id":"bravo_app_status_lets_tstn","updatedAt":1410934155}
+
+bravo_app_status_lets_tstv: |+
+  data: {"title":"tstv","moreinfo":"","server":"lets","text":"dead","id":"bravo_app_status_lets_tstv","updatedAt":1410934155}
+
+bravo_app_status_elop_dev: |+
+  data: {"title":"dev","moreinfo":"","server":"elop","text":"dead","id":"bravo_app_status_elop_dev","updatedAt":1410932247}
+
+bravo_app_status_elop_prdn: |+
+  data: {"title":"prdn","moreinfo":"","server":"elop","text":"dead","id":"bravo_app_status_elop_prdn","updatedAt":1410932247}
+
+bravo_app_status_elop_prdv: |+
+  data: {"title":"prdv","moreinfo":"","server":"elop","text":"dead","id":"bravo_app_status_elop_prdv","updatedAt":1410932247}
+
+bravo_app_status_elop_sitn: |+
+  data: {"title":"sitn","moreinfo":"","server":"elop","text":"dead","id":"bravo_app_status_elop_sitn","updatedAt":1410932247}
+
+bravo_app_status_elop_sitv: |+
+  data: {"title":"sitv","moreinfo":"","server":"elop","text":"dead","id":"bravo_app_status_elop_sitv","updatedAt":1410932247}
+
+bravo_app_status_elop_tstd: |+
+  data: {"title":"tstd","moreinfo":"","server":"elop","text":"dead","id":"bravo_app_status_elop_tstd","updatedAt":1410932247}
+
+bravo_app_status_elope_dev: |+
+  data: {"title":"dev","moreinfo":"","server":"elope","text":"dead","id":"bravo_app_status_elope_dev","updatedAt":1410934155}
+
+bravo_app_status_elope_prdn: |+
+  data: {"title":"prdn","moreinfo":"","server":"elope","text":"dead","id":"bravo_app_status_elope_prdn","updatedAt":1410934155}
+
+bravo_app_status_elope_prdv: |+
+  data: {"title":"prdv","moreinfo":"","server":"elope","text":"dead","id":"bravo_app_status_elope_prdv","updatedAt":1410934155}
+
+bravo_app_status_elope_sitn: |+
+  data: {"title":"sitn","moreinfo":"","server":"elope","text":"dead","id":"bravo_app_status_elope_sitn","updatedAt":1410934155}
+
+bravo_app_status_elope_sitv: |+
+  data: {"title":"sitv","moreinfo":"","server":"elope","text":"dead","id":"bravo_app_status_elope_sitv","updatedAt":1410934155}
+
+bravo_app_status_elope_tstd: |+
+  data: {"title":"tstd","moreinfo":"","server":"elope","text":"dead","id":"bravo_app_status_elope_tstd","updatedAt":1410934155}
+
+bravo_app_status_elope_tste: |+
+  data: {"title":"nsw master","moreinfo":"","server":"tste elope","text":"alive","id":"bravo_app_status_elope_tste","updatedAt":1414562678}
+
+bravo_app_status_elope_tstf: |+
+  data: {"title":"nsw master","moreinfo":"","server":"tstf elope","text":"alive","id":"bravo_app_status_elope_tstf","updatedAt":1414562678}
+
+bravo_app_status_elope_tstg: |+
+  data: {"title":"nsw master","moreinfo":"","server":"tstg elope","text":"alive","id":"bravo_app_status_elope_tstg","updatedAt":1414562678}
+
+bravo_app_status_elope_tsth: |+
+  data: {"title":"tsth","moreinfo":"","server":"elope","text":"dead","id":"bravo_app_status_elope_tsth","updatedAt":1410934155}
+
+bravo_app_status_elope_tstn: |+
+  data: {"title":"tstn","moreinfo":"","server":"elope","text":"dead","id":"bravo_app_status_elope_tstn","updatedAt":1410934155}
+
+bravo_app_status_elope_tstv: |+
+  data: {"title":"tstv","moreinfo":"","server":"elope","text":"alive","id":"bravo_app_status_elope_tstv","updatedAt":1410934155}
+
+congo: |+
+  data: {"title":"congo","text":"project1 Alcatraz\n ","id":"congo","updatedAt":1414562673}
+
+ganges: |+
+  data: {"title":"ganges","text":"project2\n ","id":"ganges","updatedAt":1414562673}
+
+mekong: |+
+  data: {"title":"mekong","text":"project3\n ","id":"mekong","updatedAt":1414562673}
+
+thames: |+
+  data: {"title":"thames","text":"","id":"thames","updatedAt":1414562673}
+
+danube: |+
+  data: {"title":"danube","text":"","id":"danube","updatedAt":1414562673}
+
+zambeze: |+
+  data: {"title":"zambeze","text":"","id":"zambeze","updatedAt":1414562673}
+
+murray: |+
+  data: {"title":"murray","text":"","id":"murray","updatedAt":1414562673}
+
+yarra: |+
+  data: {"title":"yarra","text":"Alcatraz\n ","id":"yarra","updatedAt":1414562673}
+
+nile: |+
+  data: {"title":"nile","text":"Alcatraz\n ","id":"nile","updatedAt":1414562673}
+
+tste: |+
+  data: {"title":"tste","text":"","id":"tste","updatedAt":1414562673}
+
+tstf: |+
+  data: {"title":"tstf","text":"","id":"tstf","updatedAt":1414562673}
+
+tstg: |+
+  data: {"title":"tstg","text":"","id":"tstg","updatedAt":1414562673}
+
+trackside_inf: |+
+  data: {"server":"PRDN","service":"Trackside","result":"Configuration error.","id":"trackside_inf","updatedAt":1414554003}
+
+bravo_list: |+
+  data: {"comments":[{"server":"soyou","app":"tste","status":"alive","env":"vic master"},{"server":"soyou","app":"tstf","status":"alive","env":"vic master"},{"server":"soyou","app":"tstg","status":"alive","env":"vic master"},{"server":"elope","app":"tste","status":"alive","env":"nsw master"},{"server":"elope","app":"tstf","status":"alive","env":"nsw master"},{"server":"elope","app":"tstg","status":"alive","env":"nsw master"}],"id":"bravo_list","updatedAt":1414562678}
+
+totalNormalBets: |+
+  data: {"title":"Total Bets Sold","current":0,"id":"totalNormalBets","updatedAt":1414562403}
+
+totalSportBets: |+
+  data: {"title":"Total Sport Bets Sold","current":0,"id":"totalSportBets","updatedAt":1414562403}
+
+versionTerminals: |+
+  data: {"versionTitle":"Bravo Version","current":"79.0.0 BRAVO on IA64 2015-Feb Release [CLCM, ICE Phase 2, ...] - built 14-OCT-2014","terminalTitle":"Number of Terminals","numOfTerminal":0,"id":"versionTerminals","updatedAt":1414562403}
+
+others: |+
+  data: {"xbStatus":"XB-Link: UP","ms":"Role: Master","sd":"Mode: Duplex","id":"others","updatedAt":1414562403}
+
+camhost: |+
+  data: {"cam_host_status":[{"cam":"CAM: Running","spin":"SPIN: Running","cosmos":"COSMOS: Running"}],"id":"camhost","updatedAt":1413933549}
+
+news: |+
+  data: {"headlines":[{"title":"Disasters group launches Ebola appeal","description":"The Disasters Emergency Committee is to launch an appeal in response to a disease outbreak for the first time, in aid of the Ebola crisis."},{"title":"Care for military veterans 'flawed'","description":"The government is failing to abide by its military covenant with armed forces veterans not getting the care they need, medical experts say."},{"title":"US rocket explodes during launch","description":"An unmanned rocket bound for the International Space Station has exploded during its launch from the US state of Virginia."},{"title":"New asylum backlog emerges, say MPs","description":"The Home Office is facing a fresh backlog of asylum cases on top of 30,000 unresolved applications dating back to 2007, MPs warn."},{"title":"Thousands of police 'plan to leave'","description":"More than 5,000 police officers in England and Wales plan to leave the service in the next two years, a Police Federation online survey suggests."},{"title":"Most home carers' travel 'unpaid'","description":"Most councils in England and Wales fail to ensure home care workers are paid the national minimum wage, figures obtained by Unison suggest."},{"title":"Misery of the hidden costs of school","description":"Millions of UK families struggle to meet the extra costs of a state education, suggests research carried out by young people."},{"title":"Thai court rejects UK activist case","description":"A Thai court dismisses a criminal defamation case against a British labour activist who criticised conditions in the food industry."},{"title":"Consultation into reporting of abuse","description":"The government is to undertake a public consultation into whether the reporting of child abuse by regulated bodies should be made mandatory."},{"title":"Lords to debate Holyrood powers","description":"The House of Lords is to have a full debate on the powers of the Scottish parliament following the referendum \"No\" vote."},{"title":"Samaritans app flags worrying tweets","description":"An app launched by Samaritans notifies Twitter users if people they follow seem to be distressed."},{"title":"Earthquake hits Nottinghamshire","description":"The British Geological Survey confirms that Nottinghamshire is hit by an earthquake with a magnitude of 2.6 on the Richter scale."},{"title":"VIDEO: A tour of Essex's listed skatepark","description":"A 1970s skatepark in Essex has been given Grade 2 listed status by English Heritage."},{"title":"VIDEO: 'I escaped death in N Korea'","description":"A young girl who escaped North Korea has spoken to the BBC about the violence and starvation she experienced when she lived there."},{"title":"VIDEO: Emin: 'I am on the side of women'","description":"Artist Tracey Emin says she is \"on the side of women\" after people \"wilfully misunderstood\" her on the issue of being an artist and a mother."},{"title":"VIDEO: Robbie sings during wife's labour","description":"Robbie Williams and his wife Ayda are celebrating the arrival of their second child, a baby boy weighing 8lbs 2oz."},{"title":"AUDIO: 'Why I gave burglar a £20 reward'","description":"A Bolton woman gave a burglar £20 - after he apologised for stealing £10,000 worth of items from her home."},{"title":"VIDEO: 'I'm delighted the children are here'","description":"The British businessman whose wartime actions saved hundreds of children from the Nazis has been honoured with the Czech Republic's highest award."},{"title":"VIDEO: Knopfler plays Last Post tribute","description":"Former Dire Straits guitarist Mark Knopfler lends his talents to a music project marking the centenary of the start of World War One."},{"title":"VIDEO: How British troops help Afghan dogs","description":"Fergal Keane follows Tony Lewis as he visits a centre that is helping Afghan dogs - including one that his son adopted before he was killed in action in Helmand in 2011"},{"title":"Calais comments and immigration 'mess'","description":"Comments by the mayor of Calais about migrants heading to Britain and criticism of the immigration system as a whole are on the front pages."},{"title":"London skatepark given listed status","description":"A London skatepark is awarded Grade II listing, becoming the first of its kind to be listed in Europe."},{"title":"Giant tortoise 'miraculous' recovery","description":"A new study confirms that giant tortoise numbers on one of the Galapagos Islands have bounced back thanks to captive breeding."},{"title":"Shrewsbury Town 1-2 Chelsea","description":"Chelsea need a late own goal to defeat gutsy League Two side Shrewsbury and reach the League Cup quarter-finals."},{"title":"Rangers 1-0 St Johnstone","description":"Lewis Macleod's late header seals a Scottish League Cup semi-final place for Rangers at St Johnstone's expense."},{"title":"Trott return welcome - Agnew","description":"Jonathan Trott's welcome return is good news for England after a turbulent year, says Jonathan Agnew."},{"title":"Liverpool 2-1 Swansea City","description":"Mario Balotelli inspires a late comeback as Liverpool beat Swansea to reach the League Cup quarter-finals."},{"title":"Djokovic returns with win in Paris","description":"Novak Djokovic's first match since becoming a father brings a 6-3 6-4 win over Philipp Kohlschreiber at the Paris Masters."},{"title":"Facebook warns spending to rise","description":"Facebook has warned that its spending will increase sharply next year and its revenue growth will slow in the fourth quarter."},{"title":"VIDEO: Can Rory go a day without data?","description":"Can the BBC's technology correspondent, Rory Cellan-Jones, go a day without sharing any data?"},{"title":"UK seen as soft touch - Calais mayor","description":"The UK is seen as a \"soft touch\" by migrants and its benefits system acts as a \"magnet\" to them, the mayor of the French city of Calais has told MPs."},{"title":"VIDEO: Who can rebuild Labour in Scotland?","description":"After the resignation of Johann Lamont as Scottish Labour leader on Friday what do traditional Labour voters think of the party now?"},{"title":"NHS screening advice 'must improve'","description":"The NHS needs to get better at highlighting the dangers of screening for diseases such cancer, an influential group of MPs says."},{"title":"VIDEO: How Lord Falconer lost 5.5 stone","description":"Former Lord Chancellor Lord Falconer loses 5.5 stones by eating what ever he wants in his one meal per day diet plan"},{"title":"University abolishes library fines","description":"Sheffield University is scrapping fines for overdue library books, marking another step in the move towards students being seen as customers as well as scholars."},{"title":"AUDIO: Abuse victim gets no insurance for arson","description":"A mother-of-six from Merseyside has been left homeless after her abusive husband burned her house down."},{"title":"Google developing a cancer detector","description":"Google is attempting to diagnose cancers, heart attack risks and other ailments with a system that combines nanoparticles and a wrist-worn sensor."},{"title":"VIDEO: App aims to identify bird songs","description":"A mobile phone app that recognises which species of bird is singing is being developed by a researcher at Queen Mary University in London."},{"title":"Salt destroying fertile land - UN","description":"About 2,000 hectares of fertile land are lost each day due to damage caused by salt, according to a UN analysis."},{"title":"VIDEO: 1000C lava reaches homes in Hawaii","description":"A lava flow from the Kilauea volcano on Hawaii's Big Island is now drawing close to homes."},{"title":"Brad Pitt's Fury tops UK box office","description":"Brad Pitt's World War Two drama Fury tops the UK and Ireland box office in its first week of release."},{"title":"VIDEO: Emin: 'I am on the side of women'","description":"Artist Tracey Emin says she is \"on the side of women\" after people \"wilfully misunderstood\" her on the issue of being an artist and a mother."},{"title":"What does it mean to be de-arrested?","description":"A jogger who bumped into David Cameron in Leeds was arrested and then de-arrested. But what does it mean to be \"de-arrested\", asks Tom Heyden."},{"title":"Modern Manners: We still like to be told","description":"Are manners something people still take seriously and how have they changed?"},{"title":"Portsmouth Muslim leaders condemn IS","description":"Muslims leaders from mosques in Portsmouth come together with community leaders to try and stop more young men from the city travelling to fight in Syria."},{"title":"High 'reoffending risk' at prison","description":"More needs to be done to stop inmates reoffending at a Lancashire prison, a report finds."},{"title":"MSP Boyack to stand for leadership","description":"MSP Sarah Boyack is the first candidate to formally announce she will stand for the leadership of the Scottish Labour Party."},{"title":"Million pound grant for museum","description":"The Wellcome Trust is giving £1.3m to fund the creation of six new science and technology galleries at the National Museum of Scotland."},{"title":"Teenage boy hurt in Belfast disorder","description":"A teenage boy has been treated in hospital after suffering head injuries during disorder in east Belfast."},{"title":"£872m budget cut planned for NI","description":"Northern Ireland Finance Minister Simon Hamilton proposes cuts of up to £872m in his draft budget paper, the BBC learns."},{"title":"Sepsis death man's severe bed sores","description":"A man with Down's Syndrome had the worst pressure sores some medical staff had ever seen when he was admitted to Wrexham Maelor Hospital in August 2011, an inquest hears"},{"title":"Ebola warning posters sent to GPs","description":"Ebola virus warning posters are sent to GPs, pharmacies and hospitals across Wales."},{"title":"US hails West Africa Ebola progress","description":"US envoy Samantha Power praises efforts to tackle Ebola in Liberia in West Africa, and urges international donors to continue to help."},{"title":"S Africa photos show Meyiwa suspects","description":"Police in South Africa release images of two men suspected of killing footballer Senso Meyiwa, shot after intruders entered his girlfriend's home."},{"title":"Canberra 'trying to verify IS death'","description":"The Australian government says it is trying to confirm reports that the most senior Australian member of Islamic State has been killed in Syria."},{"title":"NZ to hold flag referendum in 2016","description":"New Zealand is to hold a binding referendum in 2016 on whether to change the design of the national flag, PM John Key says."},{"title":"US warns Russia on Ukraine rebel vote","description":"US Secretary of State John Kerry warns Russia that it will violate international agreements if it recognises an election planned by rebels in eastern Ukraine."},{"title":"Italy 'to continue' migrant rescues","description":"The Italian navy says it will continue search and rescue missions for migrants in the Mediterranean, amid concern about EU budget cuts hitting rescues."},{"title":"Mexico unearths 'new mass grave'","description":"Mexican authorities looking for 43 students who disappeared after clashing with police last month investigate another suspected mass grave."},{"title":"Venezuela announces police 'purge'","description":"Venezuelan President Nicolas Maduro says he will \"purge\" the police force after alleging officers were involved in the murder of lawmaker Robert Serra."},{"title":"Peshmerga fighters arrive in Turkey","description":"A group of 150 Iraqi Kurdish fighters arrive in Turkey from where they plan to cross into Syria to battle militants besieging the town of Kobane."},{"title":"Egypt 'plans Gaza smuggling buffer'","description":"Egypt is reportedly planning a 500m buffer zone along the border with the Gaza Strip to block the smuggling of weapons."},{"title":"Canada 'grateful' to Cpl Cirillo","description":"Canadian PM Harper tells mourners the nation is deeply grateful to Cpl Nathan Cirillo, the young soldier killed by a gunman in Ottawa last week."},{"title":"Hawaii residents flee lava flow","description":"Residents of a Hawaiian village threatened by lava have begun evacuating as the flow reaches 75yds (68m) from the first house in its path."},{"title":"Day in pictures: 23 October","description":"24 hours of news images: 23 October"},{"title":"Your pictures: Steps","description":"Readers' photos on the theme of \"steps\""},{"title":"In pictures: Feline focus","description":"An online exhibition of cats"},{"title":"In pictures: Ottawa shootings","description":"Images from outside the Canadian parliament"},{"title":"In pictures: India celebrates Diwali","description":"Indians celebrate Diwali, the biggest Hindu festival"},{"title":"Day in pictures: 21 October","description":"24 hours of news images: 21 October"},{"title":"What the floods did to Kashmir's grand heritage","description":"What floods did to Kashmir's most treasured historic sites"},{"title":"In pictures: Derry in 1969","description":"Battle of the Bogside in 1969 by Gilles Caron"},{"title":"VIDEO: Public Accounts Committee","description":"MPs take evidence on managing and replacing the Aspire contract."},{"title":"VIDEO: Moment unmanned rocket explodes","description":"An unmanned cargo rocket has exploded seconds after lifting off from a commercial launch pad in Virginia."},{"title":"VIDEO: Hawaiian residents flee lava flow","description":"Residents of a Hawaiian village threatened by lava have begun evacuating as the flow reaches the first property in its path."},{"title":"VIDEO: Migrants who risk a perilous crossing","description":"The BBC's Orla Guerin investigates the growing number of migrants who are starting their journey across the Mediterranean Sea to Europe from Alexandria"},{"title":"VIDEO: Video shows massive Kobane blast","description":"The BBC's Jiyar Gol has witnessed a massive blast hit the Syrian city of Kobane - despite militants' claims that the battle is \"nearly over\"."},{"title":"VIDEO: 'British Schindler' honoured in Prague","description":"The British businessman whose wartime actions saved hundreds of children from the Nazis has been honoured at age 105 by the Czech Republic's highest award"},{"title":"VIDEO: Cantlie appears in 'Kobane video'","description":"British hostage John Cantlie has appeared in a new Islamic State (IS) video in which he says he is speaking from the key Syrian town of Kobane."},{"title":"VIDEO: Ebola sufferers 'robbed of dignity'","description":"The BBC's Gabriel Gatehouse reports from Monrovia, the capital of Liberia, on the devastating impact of Ebola upon its people."},{"title":"VIDEO: Spare electricity supply hits new low","description":"The National Grid is expected to confirm on Tuesday that the amount of spare capacity has decreased significantly from last year."},{"title":"The Swiss children used as cheap farm labour","description":"The children beaten, starved and forced to work on Swiss farms"},{"title":"Can you cheat your way to fitness?","description":"Is it really possible to get in shape by just doing the chores"},{"title":"India 'fails' victims of abuse","description":"The domestic violence that blights India"},{"title":"VIDEO: The assassination of Indira Gandhi","description":"The aide who saw Indira Gandhi's assassination"},{"title":"Migrants who risk everything to reach Europe","description":"Migrants who risk everything to try to get to Europe"},{"title":"Where do billionaires go to university?","description":"Where do the super-rich go to university?"},{"title":"Viewpoint: How the consumer dream went wrong","description":"How consumerism went wrong"},{"title":"VIDEO: The island disappearing into the sea","description":"Life on the island disappearing into the sea"},{"title":"A day without data","description":"It is possible to not share any information?"},{"title":"Politicians line up to back NHS plan","description":"Politicians line up to back NHS plan"},{"title":"High Street important for Lloyds","description":"High Street still important for Lloyds"}],"id":"news","updatedAt":1414562683}
+
+spectrum: |+
+  data: {"server":"Brew:PRDN","service":"Spectrum","result":"Configuration error.","id":"spectrum","updatedAt":1413943189}
+
+? "bravo_app_status_black_sitn\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"sitn\r\n black","text":"","id":"bravo_app_status_black_sitn\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_black_tstd\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstd\r\n black","text":"","id":"bravo_app_status_black_tstd\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_black_tste\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n black","text":"","id":"bravo_app_status_black_tste\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_black_tstg\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n black","text":"","id":"bravo_app_status_black_tstg\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_black_tsth\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tsth\r\n black","text":"","id":"bravo_app_status_black_tsth\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_caviar_sitn\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"sitn\r\n caviar","text":"","id":"bravo_app_status_caviar_sitn\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_caviar_tstd\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstd\r\n caviar","text":"","id":"bravo_app_status_caviar_tstd\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_caviar_tste\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n caviar","text":"","id":"bravo_app_status_caviar_tste\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_caviar_tstf\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstf\r\n caviar","text":"","id":"bravo_app_status_caviar_tstf\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_caviar_tstg\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n caviar","text":"","id":"bravo_app_status_caviar_tstg\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_caviar_tsth\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tsth\r\n caviar","text":"","id":"bravo_app_status_caviar_tsth\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_white_tstd\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstd\r\n white","text":"","id":"bravo_app_status_white_tstd\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_white_tste\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n white","text":"","id":"bravo_app_status_white_tste\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_white_tstg\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n white","text":"","id":"bravo_app_status_white_tstg\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_white_tsth\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tsth\r\n white","text":"","id":"bravo_app_status_white_tsth\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_nose_tstd\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstd\r\n nose","text":"","id":"bravo_app_status_nose_tstd\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_nose_tste\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n nose","text":"","id":"bravo_app_status_nose_tste\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_nose_tstf\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstf\r\n nose","text":"","id":"bravo_app_status_nose_tstf\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_nose_tstg\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n nose","text":"","id":"bravo_app_status_nose_tstg\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_nose_tsth\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tsth\r\n nose","text":"","id":"bravo_app_status_nose_tsth\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_lets_tste\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n lets","text":"","id":"bravo_app_status_lets_tste\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_lets_tstf\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstf\r\n lets","text":"","id":"bravo_app_status_lets_tstf\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_lets_tstg\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n lets","text":"","id":"bravo_app_status_lets_tstg\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_think_tste\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tste\r\n think","text":"","id":"bravo_app_status_think_tste\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_think_tstf\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstf\r\n think","text":"","id":"bravo_app_status_think_tstf\r\n","updatedAt":1414562688}
+
+? "bravo_app_status_think_tstg\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"tstg\r\n think","text":"","id":"bravo_app_status_think_tstg\r\n","updatedAt":1414562688}
+
+nile_trackside_inf: |+
+  data: {"server":"Brew:PRDN","service":"Trackside","result":"Configuration error.","id":"nile_trackside_inf","updatedAt":1414554003}
+
+nile_spectrum: |+
+  data: {"server":"Brew:PRDN","service":"Spectrum","result":"Configuration error.","id":"nile_spectrum","updatedAt":1414554003}
+
+nile_bravo_list: |+
+  data: {"comments":[{"server":"arwon","app":"prdv","status":"alive","env":"vic slave"},{"server":"brew","app":"prdv","status":"alive","env":"vic master"},{"server":"streak","app":"prdn","status":"alive","env":"nsw master"},{"server":"daacha","app":"prdn","status":"alive","env":"nsw slave"}],"id":"nile_bravo_list","updatedAt":1414562676}
+
+nile_camhost: |+
+  data: {"cam_host_status":[{"cam":"CAM: Running","spin":"SPIN: Running","cosmos":"COSMOS: Running"}],"id":"nile_camhost","updatedAt":1414562407}
+
+weather: |+
+  data: {"temp":"23&deg;C","condition":"Partly Cloudy","title":"Melbourne Weather","climacon":"cloud sun","id":"weather","updatedAt":1414562684}
+
+? "bravo_app_status_think_sitn\r\n"
+: |+
+  data: {"title":"","moreinfo":"fade","server":"sitn\r\n think","text":"","id":"bravo_app_status_think_sitn\r\n","updatedAt":1414116589}
+
